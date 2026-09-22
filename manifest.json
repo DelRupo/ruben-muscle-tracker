@@ -1,9 +1,1 @@
-{
-  "name": "Ruben Muscle Tracker",
-  "short_name": "Muscle Tracker",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#070b14",
-  "theme_color": "#070b14",
-  "description": "Persoonlijke workout tracker van Ruben"
-}
+{"name":"Ruben Muscle Tracker","short_name":"Muscle Tracker","start_url":"./index.html","display":"standalone","background_color":"#080d18","theme_color":"#080d18","description":"Persoonlijke trainings- en voedingstracker"}
