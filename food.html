@@ -1,0 +1,6 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#080d18"><link rel="manifest" href="manifest.json"><title>Voeding</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="top"><div><div class="brand">🍗 Voeding</div><div class="sub">Vandaag telt.</div></div></header><main>
+<section class="stats"><div><span>Calorieën</span><b id="calNow">0</b><small id="calGoal">/ 2550</small></div><div><span>Eiwit</span><b id="proteinNow">0 g</b><small id="proteinGoal">/ 140 g</small></div></section>
+<section class="card"><h2>Vandaag</h2><label>Calorieën<input id="kcal" type="number"></label><label>Eiwit (gram)<input id="prot" type="number"></label><button class="primary full" onclick="saveFoodPage()">Opslaan</button></section>
+</main><nav><a href="index.html">🏠<small>Home</small></a><a href="training.html">🏋️<small>Train</small></a><a href="progress.html">📈<small>Progressie</small></a><a class="active" href="food.html">🍗<small>Voeding</small></a><a href="settings.html">⚙️<small>Instellingen</small></a></nav>
+<script src="js/storage.js"></script><script src="js/app.js"></script><script>initFood()</script></body></html>
